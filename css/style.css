@@ -59,10 +59,6 @@
     border-radius: 20px;
 }
 
-.tex-deco {
-    text-decoration: none;
-}
-
 /* <!-- star table  --> */
 
 /* info  */
@@ -106,12 +102,30 @@
  }
 
  .contain-2 {
-    width: 100%;
-    
+    width: 100%; 
 }
 
  .black {
      background-color:black;
  }
 
+.gray {
+    background-color: darkgray;
+}
 
+.p-plus {
+    width: 70%;
+}
+
+
+@media screen and (max-width: 991px ){
+
+    .plus-game-cancel {
+        display: none;
+    }
+    
+    .box-psplus {
+        padding: 100px 0;
+    }
+
+}
