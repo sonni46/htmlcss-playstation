@@ -46,7 +46,6 @@
     border-color: rgb(251, 38, 0);
 }
 
-
 /* <!-- star table  --> */
 
 .contain {
@@ -106,5 +105,13 @@
      width: 300px;
  }
 
+ .contain-2 {
+    width: 100%;
+    
+}
+
+ .black {
+     background-color:black;
+ }
 
 
