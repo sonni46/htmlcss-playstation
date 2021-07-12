@@ -73,8 +73,8 @@ header {
 }
 
 .start-table img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     border-radius: 20px;
 }
 
@@ -90,9 +90,12 @@ header {
     opacity: 0.5;
 }
 
+.box_info:hover {
+    border-bottom:1px solid rgb(79, 79, 246);
+}
+
 .box_info:hover img {
     opacity: 1;
-    border-bottom:1px solid rgb(79, 79, 246);
 }
 
 /* info  */
